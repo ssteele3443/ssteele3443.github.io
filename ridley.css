@@ -1,0 +1,118 @@
+body {
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 70%
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 1250px;
+    height:650px;
+    border: px;
+}
+
+header {
+    padding:100px;
+    background-color:lightcyan;
+}
+
+nav  {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: Verdana,sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background-color:azure;
+    color:navy;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+section h1, section h2 {
+    color: lightcoral;
+    font-family: verdana;
+    font-size: 180%
+}
+
+section h2 {
+    color: lightcoral;
+    font-size: 140%; 
+}
+
+footer {
+    background-color: lightcyan;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.ridley {
+    width: 35%;
+    float:right;
+}
+
+.ridley1 {
+    width: 200px;
+    height: 300px;
+    float:bottom; 
+}
+
+.ridley2 {
+    width: 200px;
+    height: 300px;
+    float: bottom;
+}
+
+.ridley3 {
+    width: 200px;
+    height: 300px;
+    float: bottom;
+}
+
+.ridley4 {
+    width: 200px;
+    height: 300px;
+    float: bottom;
+}
+
+.button {
+    background-color:lightcyan;
+    color: lightcoral;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.button:hover {
+    background-color:azure;
+}
+
