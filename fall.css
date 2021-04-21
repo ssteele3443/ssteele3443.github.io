@@ -1,0 +1,80 @@
+body {
+    background-color: #ffb48b;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: indianred;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    background-color: indianred;
+}
+
+nav {
+    background-color: #9acdff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: floralwhite;
+    font-family: Verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background color: #9acdff;
+    color: #ffb48b;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+section h1,
+section h2 {
+    color: floralwhite;
+    font-family: Verdana;
+    font-size: 180%;
+    text-align: center;
+}
+
+section h2 {
+    color: #ffb48b;
+    font-size: 140%;
+}
+
+footer {
+    background-color: #9acdff;
+    color: floralwhite;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.fall {
+    width: 100%;
+    float: right;
+}
