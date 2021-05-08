@@ -1,0 +1,147 @@
+dhtml,body {
+	margin: 0;
+	padding: 0;
+	font: 16px Arial, sans-serif;
+	background-color: #CCB;
+	font-style: Verdana, Geneva, sans-serif;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 68.1%;
+	background-color: #EC3632;
+}
+
+header {
+	background: #0EC8C7;
+	margin: 0;
+	padding: 0;
+}
+
+#heading {
+	width: 100%;
+}
+
+nav {
+	margin: 0;
+	padding: 1.5%;
+	font-size: 115%;
+	background-color: #0EC8C7;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav li a {
+	padding: 2% 5%;
+	text-decoration: none;
+	color: white;
+}
+
+section{
+	overflow: auto;
+}
+
+aside {
+	width: 28%;
+	float: left;
+	background-color: #EC3632;
+	padding: 2%;
+	color: white;
+	font-size: 115%;
+	height: 10%;
+}
+
+aside ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+aside li {
+	padding: 3%;
+	text-decoration: none;
+	
+}
+
+aside li a {
+	padding: 1%;
+	text-decoration: none;
+	color: white;
+}
+
+article {
+	width: 64%;
+	float: left;
+	background-color: white;
+	padding: 2%;
+}
+
+#cupcakes {
+	float: right;
+}
+
+footer {
+	background-color: #0EC8C7;
+	padding: 2%;
+	text-align: left;
+	font-size: 11px;
+}
+
+@media (max-width: 480px) {
+	
+	article {
+		width: 100%;
+	}
+	
+	#wrap {
+		width: 90%;
+	}
+	
+	nav li {
+		display: block;
+		text-align: center;
+	}
+	
+	aside {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	
+	aside li {
+		padding: 1.5%;
+	}
+	
+	aside li a {
+		padding: 1%;
+	}
+	
+	#cupcakes {
+		width: 70%;
+	}
+	
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+	
+	nav li {
+		display: block;
+	}
+	
+	nav {
+		background-color: #0EC8C7;
+	}
+	
+	#cupcakes {
+		width: 70%;
+	}
+	
+}
