@@ -1,0 +1,89 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    padding: 20px;
+    background-color: lightblue;
+}
+
+nav {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+nav a:hover {
+    background color: lightblue;
+    color: lightgoldenrodyellow;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+section h1,
+section h2 {
+    color: white;
+    font-family: Verdana;
+    font-size: 180%;
+    text-align: center;
+}
+
+section h2 {
+    color: floralwhite;
+    font-size: 140%;
+}
+
+footer {
+    background-color: lightgoldenrodyellow;
+    color: lightpink;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.spring {
+    width: 40%;
+    float: right;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
